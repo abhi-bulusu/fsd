@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right top, #943b90, #7d63bc, #5885d9, #25a3e8, #12beeb);
+}
+
+.title-page {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+#player-button,
+#computer-button {
+  font-size: 1.3em;
+  padding: 1em 2em;
+  border-radius: 8px;
+  background-color: #0a0027;
+  color: #ffffff;
+  border: none;
+  margin: 0 0.5em;
+}
+
+.game-page {
+  display: none;
+}
+
+.wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.container {
+  width: 70vmin;
+  height: 70vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vmin;
+}
+
+.button-option {
+  background: #ffffff;
+  height: 22vmin;
+  width: 22vmin;
+  border: none;
+  border-radius: 8px;
+  font-size: 12vmin;
+  color: #d161ff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#restart {
+  font-size: 1.3em;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #0a0027;
+  color: #ffffff;
+  border: none;
+  position: relative;
+  margin: 1.5em auto 0 auto;
+  display: block;
+}
+
+.popup {
+  background-image: linear-gradient(to right top, #9b6fce, #f262a6, #ff7967, #f8ad2a, #afe03c);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 12vmin;
+}
+
+#new-game {
+  font-size: 0.6em;
+  padding: 0.5em 1em;
+  background-color: #0a0027;
+  color: #ffffff;
+  border-radius: 0.2em;
+  border: none;
+}
+
+#message {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1em;
+}
+
+.popup.hide {
+  display: none;
+}

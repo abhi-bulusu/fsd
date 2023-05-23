@@ -4,12 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>bootstrap class</title>
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+        <style>
+            img:hover {
+                transform: scale(105%);
+                transition: 0.5s;
+            }
+        </style>
 </head>
 
-<body style="background-color: rgba(15, 61, 62, 1); color: white;">
+<body style="background-color: rgba(15, 61, 62, 1); color: white; font-family: Poppins;">
 
 
     <!-- Heading space -->
@@ -85,7 +96,7 @@
             </div>
 
             <div class="col-sm-8" style="padding-top: 2%;">
-                <p style="font-size: medium; color: white; padding-top: 10%; text-align: justify.;">
+                <p style="font-size: medium; color: white; padding-top: 10%; text-align: justify;">
                     Hey there, I'm a 20-year-old student from Visakhapatnam who likes to think of myself as a
                     multitasking pro. By day,
                     I'm a <kbd style="background-color: darkmagenta;">Student</kbd> trying to learn enough to impress my
@@ -112,45 +123,37 @@
                 <div class="container">
                     <div class="card mx-auto" style="width: 18rem;background-color: rgba(226, 220, 200, 1);">
                         <img class="card-img-top"
-                            src="C:\Users\ABHIRAM\Downloads\WhatsApp Image 2023-02-22 at 3.45.04 PM.jpeg"
+                            src="./WhatsApp Image 2023-02-22 at 3.45.04 PM.jpeg"
                             alt="Contact Card">
                         <div class="card-body">
                             <h5 class="card-title mx-auto" style="color: black;" text-align: center;>Abhiram Bulusu</h5>
-                            <p class="card-text" style="color: black;">Contact me? <br> Hey! I'm on Internet!</p>
-                            <div class="row">
-                                <div class="col-sm">
-                                    <p> <button type="button" class="btn"><img
-                                                src="C:\Users\ABHIRAM\Downloads\email-11-512 (1).png" width="18"
-                                                height="18"> </button>
-                                    </p>
-                                </div> <br>
-
-                                <div class="col-sm link-secondary text-white">
-                                    <p> <button type="button" class="btn"><a
-                                                href="https://twitter.com/AbhiBulusu?t=B0-yCqypfQ6wQacC9C5JyQ&s=09">
-                                                <img src="C:\Users\ABHIRAM\Downloads\twitter-512 (1).png" width="20"
-                                                    height="20"></a> </button>
-                                    </p>
-
-                                </div><br>
-                                <div class="col-sm link-secondary text-white">
-                                    <p> <button type="button" class="btn"><a
-                                                href=" https://www.linkedin.com/in/abhi-bulusu"><img
-                                                    src="C:\Users\ABHIRAM\Downloads\linkedin-512 (1).png" width="18"
-                                                    height="18"></a></button>
-                                    </p>
-                                </div><br>
-
-                                <div class="col-sm link-secondary text-white">
-                                    <p> <button type="button" class="btn"><a href="https://github.com/abhi-bulusu"><img
-                                                    src="C:\Users\ABHIRAM\Downloads\github-10-512.png" width="18"
-                                                    height="18"></a></button>
-                                    </p>
-                                </div><br>
-
-
-
+                            <p class="card-text" style="color: black;">Wanna contact me? <br> Well, I'm on Internet!</p>
+                            <div class="row justify-content-center">
+                                <div class="col-sm-3 link-secondary text-center">
+                                    <a href="mailto:bulusuabhiram@gmail.com">
+                                        <img src="./email-11-512 (1).png" width="18" height="18">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-sm-3 link-secondary text-center">
+                                    <a href="https://twitter.com/AbhiBulusu?t=B0-yCqypfQ6wQacC9C5JyQ&s=09">
+                                        <img src="./twitter-512 (1).png" width="18" height="20">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-sm-3 link-secondary text-center">
+                                    <a href="https://www.linkedin.com/in/abhi-bulusu">
+                                        <img src="./linkedin-512 (1).png" width="18" height="18">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-sm-3 link-secondary text-center">
+                                    <a href="https://github.com/abhi-bulusu">
+                                        <img src="./github-10-512.png" width="18" height="18">
+                                    </a>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -312,19 +315,17 @@
                             src="https://i.ytimg.com/vi/M_ofFEIMx34/maxresdefault.jpg" alt="Responsive Photo Album">
                         <div class="card-body">
                             <h5 class="card-title mx-auto" style="color: black;" text-align: center;>Responsive Photo
-                                Album
+                                Album/Editor
                             </h5>
                             <p class="card-text" style="color: black;" text-align: center;>A responsive photo album
                                 using Bootstrap
                                 HTML that adapts to different screen sizes,
-                                allowing users to easily browse and view images.
+                                allowing users to easily browse, view images and perform few edits on them.
                             </p>
-                            <div class="col-sm link-secondary text-white">
-                                <p> <button type="button" class="btn"><a href="https://github.com/abhi-bulusu"><img
-                                                src="C:\Users\ABHIRAM\Downloads\github-10-512.png" width="18"
-                                                height="18"></a> &nbsp Check it on GitHub</button>
-                                </p>
-                            </div><br>
+                            <p><a href = "./Photo Editor/photo-editor.html" style="text-decoration:none;color:black; margin-bottom: 200px;" ;><img
+                                src="./github-10-512.png" width="18"
+                                height="18">&nbsp Check it on Github</a></p>
+
                         </div>
                     </div>
                 </div>
@@ -336,16 +337,16 @@
                         <img class="card-img-top" width="50" height="150"
                             src="https://uploads.codehs.com/859400cd211700dcde03a3f3cee74575" alt="Tic Tac Toe">
                         <div class="card-body">
-                            <h5 class="card-title mx-auto" style="color: black;" text-align: center;>Tic Tac Toe</h5>
+                            <h5 class="card-title mx-auto" style="color: black;" text-align: center;>Tic-Tac-Toe</h5>
                             <p class="card-text" style="color: black;" text-align: center;>A simple tic tac toe game built with 
                                 HTML, CSS and JavaScript that uses Bootstrap for responsive layout and styling.
                             </p>
-                            <div class="col-sm link-secondary text-white">
-                                <p> <button type="button" class="btn"><a href="https://github.com/abhi-bulusu"><img
-                                                src="C:\Users\ABHIRAM\Downloads\github-10-512.png" width="18"
-                                                height="18"></a> &nbsp Check it on GitHub</button>
-                                </p>
-                            </div><br>
+                            <br>
+                            <br>
+                            <br>
+                            <p><a href = "./Tic Tac Toe/index.html" style="text-decoration:none;color:black; margin-bottom: 200px;" ;><img
+                                src="./github-10-512.png" width="18"
+                                height="18">&nbsp Check it on Github</a></p>
                         </div>
                     </div>
                 </div>
@@ -361,12 +362,11 @@
                             <p class="card-text" style="color: black;" text-align: center;>The knock-off of the acclaimed word guessing game, 
                                 made with HTML, CSS and JavaScript, and features a responsive layout and design using Bootstrap.
                             </p>
-                            <div class="col-sm link-secondary text-white">
-                                <p> <button type="button" class="btn"><a href="https://github.com/abhi-bulusu"><img
-                                                src="C:\Users\ABHIRAM\Downloads\github-10-512.png" width="18"
-                                                height="18"></a> &nbsp Check it on GitHub</button>
-                                </p>
-                            </div><br>
+                            <br>
+                        
+                            <p><a href = "./wordle/index.html" style="text-decoration:none;color:black; margin-bottom: 200px;" ;><img
+                                src="./github-10-512.png" width="18"
+                                height="18">&nbsp Check it on Github</a></p>
                         </div>
                     </div>
                 </div>
@@ -415,7 +415,7 @@
                             src="https://m.media-amazon.com/images/M/MV5BOGRmOWZjNmYtOGNkZS00MTQ5LTg5YzktNGE5MDM2ZWYxMjI0XkEyXkFqcGdeQXVyMTI0ODg2OTM3._V1_FMjpg_UX1000_.jpg"
                             alt="Splinter Cell Blacklist">
                         <div class="card-body">
-                            <h5 class="card-title mx-auto" style="color: black;" text-align: center;>Splinter Cell
+                            <h5 class="card-title mx-auto" style="color: black;" text-align: center;>Splinter Cell : 
                                 Blacklist</h5>
                         </div>
                     </div>
@@ -467,7 +467,7 @@
                             alt="BR 2047">
                         <div class="card-body">
                             <h5 class="card-title mx-auto" style="color: white;" text-align: center;>Blade Runner 2047
-                                Blacklist</h5>
+                                </h5>
                         </div>
                     </div>
                 </div>
